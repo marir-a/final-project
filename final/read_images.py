@@ -46,5 +46,5 @@ def load_img(path_to_img, max_dimension=512, content_height=None, content_width=
 
     img = tf.image.resize(img, new_shape)
     img = img[tf.newaxis, :]
-    print(new_shape)
+
     return img, new_shape

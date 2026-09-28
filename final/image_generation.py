@@ -88,4 +88,4 @@ def run_generation(content_image, style_image, run_parameters, filename):
                        content_targets,
                        opt)
         im = tensor_to_image(image)
-        im.save('results/{}/generation_{}.png'.format(filename, n))
+        im.save('demo/{}/generation_{}.png'.format(filename, n))
